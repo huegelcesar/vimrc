@@ -26,9 +26,9 @@ if [ "$2" = "--all" ]; then
         IFS=''
         echo $VIMRC > ${homepath}/.vimrc
         unset IFS
-        echo "Installed the Ultimate Vim configuration for user $user successfully! Enjoy :-)"
+        echo "Installed the Custom Ultimate Vim configuration for user $user successfully! Enjoy :-)"
     done
-    echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
+    echo "Installed the Custom Ultimate Vim configuration successfully! Enjoy :-)"
     exit 0
 else
     SELECTED_USERS=${@:2}
@@ -38,7 +38,7 @@ else
         IFS=''
         echo $VIMRC > ${homepath}/.vimrc
         unset IFS
-        echo "Installed the Ultimate Vim configuration for user $user successfully! Enjoy :-)"
+        echo "Installed the Custom Ultimate Vim configuration for user $user successfully! Enjoy :-)"
     done
     exit 0
 fi
